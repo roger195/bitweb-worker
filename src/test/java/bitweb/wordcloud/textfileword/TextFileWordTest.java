@@ -1,6 +1,5 @@
 package bitweb.wordcloud.textfileword;
 
-import bitweb.wordcloud.TextFileWord.TextFileWord;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

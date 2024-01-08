@@ -1,8 +1,8 @@
 package bitweb.wordcloud;
 
-import bitweb.wordcloud.TextFilePart.TextFilePart;
-import bitweb.wordcloud.TextFilePart.TextFilePartRepository;
-import bitweb.wordcloud.TextFileWord.TextFileWordRepository;
+import bitweb.wordcloud.textfilepart.TextFilePart;
+import bitweb.wordcloud.textfilepart.TextFilePartRepository;
+import bitweb.wordcloud.textfileword.TextFileWordRepository;
 import bitweb.wordcloud.word.Word;
 import bitweb.wordcloud.textfileinfo.TextFileInfo;
 import bitweb.wordcloud.textfileinfo.TextFileInfoRepository;

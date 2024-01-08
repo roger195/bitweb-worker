@@ -1,4 +1,4 @@
-package bitweb.wordcloud.TextFilePart;
+package bitweb.wordcloud.textfileword;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -11,25 +11,25 @@ import lombok.Setter;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "text_file_parts")
-public class TextFilePart {
+@Table(name = "text_files_words")
+public class TextFileWord {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private long id;
 
-    @Column(name = "content", nullable = false)
-    private String content;
-
-    @Column(name = "part_number", nullable = false)
-    private int partNumber;
+    @Column(name = "counter", nullable = false)
+    private int counter;
 
     @JoinColumn(name = "text_file_infos_id", nullable = false)
     private long textFileInfosId;
 
-    public TextFilePart(String content, int partNumber, long textFileInfosId) {
-        this.content = content;
-        this.partNumber = partNumber;
+    @JoinColumn(name = "words_id", nullable = false)
+    private long wordsId;
+
+    public TextFileWord(int counter, long textFileInfosId, long wordsId) {
+        this.counter = counter;
         this.textFileInfosId = textFileInfosId;
+        this.wordsId = wordsId;
     }
 }

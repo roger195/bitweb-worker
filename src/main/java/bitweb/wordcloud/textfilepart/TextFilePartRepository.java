@@ -1,4 +1,4 @@
-package bitweb.wordcloud.TextFilePart;
+package bitweb.wordcloud.textfilepart;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

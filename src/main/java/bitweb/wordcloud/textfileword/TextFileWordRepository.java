@@ -1,4 +1,4 @@
-package bitweb.wordcloud.TextFileWord;
+package bitweb.wordcloud.textfileword;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

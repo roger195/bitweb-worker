@@ -1,7 +1,5 @@
 package bitweb.wordcloud;
 
-import bitweb.wordcloud.TextFilePart.TextFilePartRepository;
-import bitweb.wordcloud.TextFileWord.TextFileWordRepository;
 import bitweb.wordcloud.textfileinfo.TextFileInfo;
 import bitweb.wordcloud.textfileinfo.TextFileInfoRepository;
 import bitweb.wordcloud.textfileinfo.UploadStatus;
